@@ -46,7 +46,7 @@ export default function Page2() {
         <div style={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', backgroundColor: 'white', color: 'black' }}>
             {displayName && (
                 <div style={{ position: 'absolute', top: '10px', right: '10px', backgroundColor: 'lightgray', padding: '10px', borderRadius: '4px' }}>
-                    Welcome, {displayName}!
+                    Hola, {displayName}!
                 </div>
             )}
             <form onSubmit={handleSubmit} style={{ backgroundColor: 'white', padding: '20px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', width: '300px' }}>
