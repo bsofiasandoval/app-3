@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 
-const Page1: React.FC = () => {
+export default function Page1() {
     const [color, setColor] = useState<string>('white');
 
     return (
@@ -44,4 +44,3 @@ const Page1: React.FC = () => {
     );
 };
 
-export default Page1;
